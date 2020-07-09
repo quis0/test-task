@@ -1,0 +1,25 @@
+.cart__delete-item {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.502);
+  line-height: 1.2;
+  padding: 0;
+  background-color: white;
+}
+
+.cart__delete-item:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 719px) {
+  .cart__delete-item {
+    position: relative;
+    align-self: flex-start;
+  }
+}
+
+/*# sourceMappingURL=cart__delete-item.css.map */

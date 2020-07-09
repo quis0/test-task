@@ -1,0 +1,16 @@
+.offers__title {
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+  .offers__title {
+    font-size: 28px;
+  }
+}
+
+/*# sourceMappingURL=offers__title.css.map */

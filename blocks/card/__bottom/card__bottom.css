@@ -1,0 +1,12 @@
+.card__bottom {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+  .card__bottom {
+    max-width: 240px;
+  }
+}
+
+/*# sourceMappingURL=card__bottom.css.map */

@@ -1,0 +1,20 @@
+.card__price {
+  font-size: 44px;
+  color: black;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 0 12px 0;
+}
+
+@media screen and (max-width: 959px) {
+  .card__price {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 719px) {
+  .card__price {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=card__price.css.map */

@@ -1,0 +1,23 @@
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flexDirection {
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+}
+
+.advantages__title {
+  @include flexbox;
+  @include flexDirection;
+  align-items: center;
+  margin-bottom: 8px;
+}
+

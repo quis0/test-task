@@ -1,0 +1,19 @@
+.offers__payment-option {
+  margin-right: 48px;
+}
+
+.offers__payment-option:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 719px) {
+  .offers__payment-option {
+    margin-right: 8px;
+  }
+
+  .offers__payment-option:last-of-type {
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=offers__payment-option.css.map */

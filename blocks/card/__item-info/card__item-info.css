@@ -1,0 +1,34 @@
+.card__item-info {
+  list-style-type: disc;
+  font-size: 16px;
+  color: black;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.card__item-info:before {
+  content: url("../../../images/ellipse.png");
+  position: relative;
+  bottom: 4px;
+  right: 16px;
+}
+
+.card__item-info:last-of-type {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1139px) {
+  .card__item-info {
+    position: relative;
+    left: 8px;
+  }
+
+  .card__item-info:before {
+    right: 10px;
+  }
+}
+
+/*# sourceMappingURL=card__item-info.css.map */

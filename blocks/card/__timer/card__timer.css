@@ -1,0 +1,28 @@
+.card__timer {
+  font-size: 14px;
+  color: black;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+}
+
+.card__timer::before {
+  content: url(../../../images/clock.png);
+  position: relative;
+  right: 10px;
+  top: 4px;
+}
+
+@media screen and (max-width: 959px) {
+  .card__timer {
+    margin-left: 12px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 719px) {
+  .card__timer {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=card__timer.css.map */

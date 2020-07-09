@@ -1,0 +1,19 @@
+.card__item {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  width: 100%;
+}
+
+.card__item:last-of-type {
+  margin-bottom: 11px;
+}
+
+/*# sourceMappingURL=card__item.css.map */

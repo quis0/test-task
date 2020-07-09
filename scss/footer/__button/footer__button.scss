@@ -1,0 +1,30 @@
+.footer__button {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.749);
+  line-height: 1.5;
+  background-color: rgb(53, 129, 213);
+  border: none;
+  outline: none;
+  height: 45px;
+  width: 98px;
+  border-radius: 0 6px 6px 0;
+  position: relative;
+  left: -4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1139px) {
+  .footer__button {
+    width: 106px;
+    height: 42px;
+  }
+}
+
+
+
+@-moz-document url-prefix() {
+  .footer__button {
+    position: relative;
+    top: -4px;
+  }
+}

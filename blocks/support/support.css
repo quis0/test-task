@@ -1,0 +1,19 @@
+@import url(./__content/support__content.css);
+@import url(./__options/support__options.css);
+@import url(./__option/support__option.css);
+@import url(./__title/support__title.css);
+@import url(./__image/support__image.css);
+@import url(./__title-text/support__title-text.css);
+@import url(./__text/support__text.css);
+.support {
+  background-color: #f2f8ff;
+  padding-bottom: 84px;
+}
+
+@media screen and (max-width: 959px) {
+  .support {
+    padding-bottom: 60px;
+  }
+}
+
+/*# sourceMappingURL=support.css.map */

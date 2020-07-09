@@ -1,0 +1,12 @@
+@import url('./_state/layer_state_off.css');
+
+.layer {
+  background-color: #000;
+  height: 100%;
+  left: 0;
+  opacity: 0.80;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}

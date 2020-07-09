@@ -1,0 +1,12 @@
+.footer__logo {
+  width: 95px;
+  height: 21px;
+}
+
+@media screen and (max-width: 959px) {
+  .footer__logo {
+    margin-bottom: 32px;
+  }
+}
+
+/*# sourceMappingURL=footer__logo.css.map */

@@ -1,0 +1,15 @@
+.footer__sign-up {
+  width:540px;
+}
+
+@media screen and (max-width: 1139px) {
+  .footer__sign-up {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .footer__sign-up {
+    width: 100%;
+  }
+}

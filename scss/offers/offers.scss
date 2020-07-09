@@ -1,0 +1,13 @@
+@import url(__content/offers__content.css);
+@import url(__title/offers__title.css);
+@import url(__cards/offers__cards.css);
+@import url(../card/card.css);
+@import url(./__payment-options/offers__payment-options.css);
+@import url(./__payment-option/offers__payment-option.css);
+@import url(./__separation-line/offers__separation-line.css);
+
+.offers {
+  background-color: rgb(227, 240, 255);
+  padding-top: 24px;
+  padding-bottom: 68px;
+}

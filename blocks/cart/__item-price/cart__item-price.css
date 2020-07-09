@@ -1,0 +1,15 @@
+.cart__item-price {
+  margin: 0 0 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: black;
+}
+
+@media screen and (max-width: 719px) {
+  .cart__item-price {
+    margin: 0 0 24px 0;
+  }
+}
+
+/*# sourceMappingURL=cart__item-price.css.map */

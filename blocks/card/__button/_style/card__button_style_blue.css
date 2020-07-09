@@ -1,0 +1,11 @@
+.card__button_style_blue {
+  color: white;
+  border: none;
+  background-color: #3581d5;
+}
+
+.card__button_style_blue:hover {
+  border: transparent;
+}
+
+/*# sourceMappingURL=card__button_style_blue.css.map */

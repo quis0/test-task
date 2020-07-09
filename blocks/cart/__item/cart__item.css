@@ -1,0 +1,28 @@
+.cart__item {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 719px) {
+  .cart__item {
+    margin: 0 0 24px 0;
+    justify-content: flex-end;
+  }
+
+  .cart__item:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=cart__item.css.map */

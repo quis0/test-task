@@ -1,0 +1,26 @@
+.support__option {
+  margin-right: 32px;
+}
+
+.support__option:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 959px) {
+  .support__option {
+    margin-bottom: 32px;
+    margin-right: 0;
+    max-width: 688px;
+  }
+
+  .support__option:last-of-type {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 719px) {
+  .support__option {
+    max-width: 288px;
+  }
+}
+
+/*# sourceMappingURL=support__option.css.map */

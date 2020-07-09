@@ -1,0 +1,11 @@
+.popup__close-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  background-color: skyblue;
+  border: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=popup__close-button.css.map */

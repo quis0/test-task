@@ -1,0 +1,18 @@
+.advantages__item {
+  margin-right: 32px;
+}
+
+.advantages__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 959px) {
+  .advantages__item {
+    margin-bottom: 32px;
+    margin-right: 0;
+  }
+
+  .advantages__item:last-of-type {
+    margin-bottom: 0;
+  }
+}

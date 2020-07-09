@@ -1,0 +1,17 @@
+@import url(__content/header__content.css);
+@import url(__cart-total/header__cart-total.css);
+@import url(__cart/header__cart.css);
+@import url(__link/header__link.css);
+@import url(__left-side/header__left-side.css);
+@import url(__burger/header__burger.css);
+@import url(__right-side/header__right-side.css);
+@import url(__ellipses/header__ellipses.css);
+
+.header {
+  background-color: rgb(33, 33, 33);
+  height: 66px;
+  position: relative;
+  z-index: 4;
+}
+
+

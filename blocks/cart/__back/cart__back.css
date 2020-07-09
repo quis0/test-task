@@ -1,0 +1,25 @@
+.cart__back {
+  text-decoration: none;
+  font-size: 16px;
+  color: #1962b2;
+  margin-left: 24px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.cart__back::before {
+  content: url(../../../images/arrow.png);
+  position: relative;
+  right: 24px;
+}
+
+@media screen and (max-width: 719px) {
+  .cart__back {
+    margin-left: 72px;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=cart__back.css.map */

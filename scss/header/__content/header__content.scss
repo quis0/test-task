@@ -1,0 +1,49 @@
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin alignCenter {
+  -webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+  align-items: center;
+}
+
+@mixin justifyContent {
+  -webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.header__content {
+  max-width: 1108px;
+  height: inherit;
+  @include flexbox;
+  @include alignCenter;
+  @include justifyContent;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1139px) {
+  .header__content {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .header__content {
+    max-width: 100%;
+    padding: 0 23px 0 16px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .header__content {
+    max-width: 288px;
+  }
+}

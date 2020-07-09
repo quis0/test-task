@@ -1,0 +1,15 @@
+@import url('../vendor/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('../blocks/header/header.css');
+@import url('../blocks/offers/offers.css');
+@import url('../blocks/advantages/advantages.css');
+@import url('../blocks/support/support.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/cart/cart.css');
+@import url('../blocks/layer/layer.css');
+@import url('../blocks/popup/popup.css');
+
+.page {
+  font-family: 'Open Sans', sans-serif;
+}
+

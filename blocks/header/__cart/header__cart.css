@@ -1,0 +1,15 @@
+.header__cart {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #212121;
+  cursor: pointer;
+  padding: 0;
+}
+
+/*# sourceMappingURL=header__cart.css.map */

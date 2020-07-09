@@ -1,0 +1,27 @@
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin justifyContent {
+  -webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+$base-value: 4px;
+
+.card__item {
+  @include flexbox;
+  @include justifyContent;
+  margin-bottom: 17px;
+  width:100%;
+}
+
+.card__item:last-of-type {
+  margin-bottom: 11px;
+}

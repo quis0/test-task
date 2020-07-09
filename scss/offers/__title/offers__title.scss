@@ -1,0 +1,17 @@
+$base-value: 4px;
+
+.offers__title {
+  font-size: $base-value * 8;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+  .offers__title {
+    font-size: $base-value * 7;
+  }
+}
+

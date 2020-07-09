@@ -1,0 +1,10 @@
+$base-value: 4px;
+
+.card__title {
+  margin: 0 0 8px 0;
+  font-size: $base-value * 4;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}

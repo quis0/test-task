@@ -1,0 +1,14 @@
+.cart__submit-button {
+  font-size: 20px;
+  color: white;
+  line-height: 1.2;
+  border-radius: 6px;
+  background-color: #1962b2;
+  width: 100%;
+  height: 54px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=cart__submit-button.css.map */

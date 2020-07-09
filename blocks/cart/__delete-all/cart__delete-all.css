@@ -1,0 +1,14 @@
+.cart__delete-all {
+  display: block;
+  position: relative;
+  border: none;
+  background-color: white;
+  margin: 24px 0 0 auto;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.502);
+  line-height: 1.2;
+  outline: none;
+}
+
+/*# sourceMappingURL=cart__delete-all.css.map */

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="movavi, test-task">
+  <meta name="author" content="Zotkevich Grigorij">
+  <title>Movavi</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <!-- В данной работе использую следующие разделители: B__E_M, знак "-" использую как замену пробелу -->
+
+  <header class="header">
+    <div class="header__content">
+      <div class="header__left-side">
+        <div class="header__burger">
+          <a href="#" class="header__link">
+            <img src="./images/burger.png" alt="" class="header__burger-logo">
+          </a>
+        </div>
+
+        <a class="header__link" href="https://www.movavi.ru/">
+          <img src="./images/logo.png" alt="">
+        </a>
+      </div>
+
+      <div class="header__right-side">
+        <button class="header__cart">
+          <img src="./images/card-logo.png" alt="">
+          <span class="header__cart-total">0 руб.</span>
+        </button>
+
+        <a href="#" class="header__ellipses">
+          <img src="./images/ellipses.png" alt="">
+        </a>
+      </div>
+
+
+    </div>
+  </header>
+
+  <div class="cart cart_state_disabled" id="cart">
+    <button class="cart__back">Continue Shopping</button>
+    <h3 class="cart__header">Shopping Cart</h3>
+
+    <div class="cart__items">
+
+    </div>
+
+    <hr class="cart__separation-line">
+
+    <div class="cart__total">
+      <p class="cart__total-text">Total:</p>
+      <p class="cart__total-price">0 руб.</p>
+    </div>
+
+    <button class="cart__submit-button">Check out</button>
+    <button class="cart__delete-all">Delete All</button>
+  </div>
+
+  <div class="layer layer_state_off"></div>
+
+  <section class="offers">
+    <div class="offers__content">
+      <h1 class="offers__title">Movavi Video Suite for Windows</h1>
+      <ul class="offers__cards">
+        <li class="card" data-id="1" data-image-src="./images/item-pic.png">
+          <div class="card__top">
+            <h2 class="card__title">Video Suite</h2>
+
+            <p class="card__subtitle">Lifetime / 1 PC</p>
+
+            <div class="card__item">
+              <p class="card__item-name">Video Editor Plus</p>
+              <p class="card__item-price">1490&nbsp;руб.</p>
+            </div>
+
+            <div class="card__item">
+              <p class="card__item-name">Video Converter Premium</p>
+              <p class="card__item-price">1290&nbsp;руб.</p>
+            </div>
+
+            <div class="card__item">
+              <p class="card__item-name">Screen Recorder</p>
+              <p class="card__item-price">990&nbsp;руб.</p>
+            </div>
+          </div>
+
+
+          <div class="card__bottom">
+            <p class="card__old-price">3 770<span>руб.</span></p>
+
+            <p class="card__price">1 990 <span class="card__span">руб.</span></p>
+
+            <p class="card__timer"></p>
+
+            <button class="card__button card__button_style_white">Buy Now</button>
+          </div>
+        </li>
+
+        <li class="card" data-id="2" data-image-src="./images/item-pic.png">
+
+          <div class="card__top">
+          <p class="card__accent">BEST VALUE</p>
+
+            <h2 class="card__title">Video Suite + Photo Editor</h2>
+
+            <p class="card__subtitle">Lifetime / 1 PC</p>
+
+            <div class="card__item">
+              <p class="card__item-name">Video Editor Plus</p>
+              <p class="card__item-price">1490&nbsp;руб.</p>
+            </div>
+
+            <div class="card__item">
+              <p class="card__item-name">Video Converter Premium</p>
+              <p class="card__item-price">1290&nbsp;руб.</p>
+            </div>
+
+            <div class="card__item">
+              <p class="card__item-name">Screen Recorder</p>
+              <p class="card__item-price">990&nbsp;руб.</p>
+            </div>
+
+            <div class="card__item">
+              <p class="card__item-name card__item-name_style_bold">Photo Editor</p>
+              <p class="card__item-price">1290&nbsp;руб.</p>
+            </div>
+
+            <ul class="card__list">
+              <li class="card__item-info">Edit, enhance and retouch images</li>
+              <li class="card__item-info">Restore old photos</li>
+            </ul>
+          </div>
+
+          <div class="card__bottom">
+            <p class="card__old-price card__old-price_margin_medium">5 060<span>руб.</span></p>
+
+            <p class="card__price">2 490 <span class="card__span">руб.</span></p>
+
+            <p class="card__timer"></p>
+
+            <button type="button" class="card__button card__button_style_blue">Buy Now</button>
+          </div>
+
+
+        </li>
+      </ul>
+
+      <ul class="offers__payment-options">
+        <li class="offers__payment-option">
+          <img src="./images/mastercard.png" alt="MasterCard">
+        </li>
+        <li class="offers__payment-option">
+          <img src="./images/visa.png" alt="Visa">
+        </li>
+        <li class="offers__payment-option">
+          <img src="./images/paypal.png" alt="PayPal">
+        </li>
+        <li class="offers__payment-option">
+          <img src="./images/discover.png" alt="Discover">
+        </li>
+        <li class="offers__payment-option">
+          <img src="./images/american-express.png" alt="American Express">
+        </li>
+      </ul>
+
+      <hr class="offers__separation-line">
+
+      <ul class="advantages">
+        <li class="advantages__item">
+          <div class="advantages__title">
+            <img src="./images/p1-image.png" alt="" class="advantages__image">
+
+            <h3 class="advantages__title-text">30 Day Money Back Guarantee</h3>
+          </div>
+
+
+          <p class="advantages__text">
+            If you experience technical or other problems that cannot be solved, you can get a complete refund of your
+            purchase price within 30 days. Check our Refund Policy to find out if you are eligible for a full refund.
+          </p>
+        </li>
+
+        <li class="advantages__item">
+          <div class="advantages__title">
+            <img src="./images/p2-image.png" alt="" class="advantages__image">
+
+            <h3 class="advantages__title-text">Totally Secure Payments</h3>
+
+          </div>
+
+          <p class="advantages__text">
+            Our payments are processed via the 2Checkout payment gateway. 2Checkout provides the highest standards of
+            online security. It guarantees the safety of your payments and personal information.
+          </p>
+        </li>
+
+        <li class="advantages__item">
+          <div class="advantages__title">
+            <img src="./images/p3-image.png" alt="" class="advantages__image">
+
+            <h3 class="advantages__title-text">What Do I Get?</h3>
+
+          </div>
+
+          <p class="advantages__text">
+            15 minutes after purchase, you will receive an email with a download link and activation key to the account
+            used to make the purchase. Use these to download and activate the program.
+          </p>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section class="support">
+    <div class="support__content">
+      <ul class="support__options">
+        <li class="support__option">
+          <div class="support__title">
+            <img src="./images/p4-image.png" alt="" class="support__image">
+
+            <h3 class="support__title-text">24/7 Payment Support</h3>
+
+          </div>
+
+          <p class="support__text">
+            Contact the 2Checkout 24/7 English language support service by phone at +31 88 000 0008(international) with
+            any payment-related questions.
+          </p>
+        </li>
+
+        <li class="support__option">
+          <div class="support__title">
+            <img src="./images/p5-image.png" alt="" class="support__image">
+
+            <h3 class="support__title-text">Movavi Software Support</h3>
+
+          </div>
+
+          <p class="support__text">
+            If you have any problems activating or using the programs, visit our Help Center for answers, live support,
+            software manuals, and quick user guides.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <img src="./images/logo.png" alt="" class="footer__logo">
+
+      <div class="footer__sign-up">
+        <h3 class="footer__sign-up-title">Sign up for news and special offers</h3>
+        <form class="footer__form" novalidate>
+          <input type="email" name="email" class="footer__email" required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="user@email.com">
+          <button class="footer__button" name="send">Sign Up</button>
+        </form>
+        <input type="checkbox" class="footer__checkbox" id="checkbox" name="checkbox" value="yes">
+        <label for="checkbox" class="footer__checkbox-label">
+          <p class="footer__text">
+            By signing up, you consent to receive our marketing emails and agree to Movavi using
+            your personal data in accordance with our <span><a href="#" class="footer__link">Privacy Policy</a></span>.
+            You also confirm that you meet the
+            <span><a href="#" class="footer__link">minimum age requirements</a>.</span>
+          </p>
+
+        </label>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup">
+    <p class="popup__text">Your offer has expired :(</p>
+    <img src="images/close.png" class="popup__close">
+  </div>
+
+  <script
+    src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.closest%2CElement.prototype.remove"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+
+</html>

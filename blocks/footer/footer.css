@@ -1,0 +1,19 @@
+@import url(./__content/footer__content.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__sign-up/footer__sign-up.css);
+@import url(./__sign-up-title/footer__sign-up-title.css);
+@import url(./__email/footer__email.css);
+@import url(./__button/footer__button.css);
+@import url(./__form/footer__form.css);
+@import url(./__checkbox/footer__checkbox.css);
+@import url(./__checkbox-label/footer__checkbox-label.css);
+@import url(./__text/footer__text.css);
+@import url(./__link/footer__link.css);
+.footer {
+  background-color: #212121;
+  padding-bottom: 54px;
+  position: relative;
+  z-index: 4;
+}
+
+/*# sourceMappingURL=footer.css.map */

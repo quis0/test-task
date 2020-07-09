@@ -1,0 +1,91 @@
+@import url(__accent/card__accent.css);
+@import url(__title/card__title.css);
+@import url(__subtitle/card__subtitle.css);
+@import url(__item/card__item.css);
+@import url(__item-name/card__item-name.css);
+@import url(__item-price/card__item-price.css);
+@import url(__list/card__list.css);
+@import url(__item-info/card__item-info.css);
+@import url(__old-price/card__old-price.css);
+@import url(__price/card__price.css);
+@import url(__timer/card__timer.css);
+@import url(__span/card__span.css);
+@import url(__button/card__button.css);
+@import url(__top/card__top.css);
+@import url(__bottom/card__bottom.css);
+.card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 32px 24px 24px 24px;
+  box-sizing: border-box;
+  width: 348px;
+  height: 545px;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.card:last-of-type {
+  margin: 25px 0 0 0;
+  height: 577px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@media screen and (max-width: 1139px) {
+  .card {
+    width: 288px;
+    padding: 32px 20px 24px 20px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .card {
+    width: 100%;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    align-items: flex-start;
+    max-height: 350px;
+  }
+
+  .card:not(:last-of-type) {
+    max-height: 240px;
+  }
+}
+@media screen and (max-width: 719px) {
+  .card {
+    margin-top: 28px;
+    max-height: 630px;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .card:not(:last-of-type) {
+    max-height: 450px;
+  }
+}
+
+/*# sourceMappingURL=card.css.map */

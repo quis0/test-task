@@ -1,0 +1,13 @@
+.header__ellipses {
+  display: none;
+}
+
+@media screen and (max-width: 959px) {
+  .header__ellipses {
+    display: block;
+    margin-left: 32px;
+    cursor: pointer;
+  }
+}
+
+

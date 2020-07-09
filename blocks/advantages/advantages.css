@@ -1,0 +1,33 @@
+@import url(./__item/advantages__item.css);
+@import url(./__title/advantages__title.css);
+@import url(./__text/advantages__text.css);
+@import url(./__title-text/advantages__title-text.css);
+@import url(./__image/advantages__image.css);
+.advantages {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 959px) {
+  .advantages {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=advantages.css.map */

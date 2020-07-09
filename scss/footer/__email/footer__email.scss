@@ -1,0 +1,43 @@
+.footer__email {
+  background-color: rgb(97, 97, 97);
+  width: 433px;
+  height: 43px;
+  border-radius: 6px 0 0 6px;
+  border: none;
+  outline: none;
+}
+
+.footer__email::placeholder {
+  color: rgba(255, 255, 255, 0.749);
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 16px;
+}
+
+.footer__email:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.749);
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+@-moz-document url-prefix() {
+  .footer__email {
+    padding: 8px 0 0 8px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  .footer__email {
+    width: 343px;
+   height: 40px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .footer__email {
+    width: calc(100% - 115px);
+  }
+}

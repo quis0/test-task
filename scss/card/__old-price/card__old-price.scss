@@ -1,0 +1,41 @@
+@import url('./_margin_medium/card__old-price_margin_medium.css');
+$color: rgba(0, 0, 0, 0.502);
+
+.card__old-price {
+  position: relative;
+  font-size: 16px;
+  color: $color;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom:11px;
+  margin-top: 0;
+}
+
+.card__old-price:before {
+	content: "";
+  border-bottom: 1px solid rgb(23, 23, 23);
+  opacity: 0.502;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 37px);
+	width: 74px;
+	height: 50%;
+}
+
+@media screen and (max-width: 959px) {
+  .card__old-price {
+    text-align: left;
+  }
+  .card__old-price:before {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .card__old-price {
+    text-align: center;
+  }
+  .card__old-price:before {
+    left: calc(50% - 37px);
+  }
+}

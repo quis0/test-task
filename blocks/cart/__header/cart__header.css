@@ -1,0 +1,15 @@
+.cart__header {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.78);
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 45px 0 24px 0;
+}
+
+@media screen and (max-width: 719px) {
+  .cart__header {
+    margin-left: 48px;
+  }
+}
+
+/*# sourceMappingURL=cart__header.css.map */

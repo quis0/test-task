@@ -1,0 +1,12 @@
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__checkbox-label {
+  @include flexbox;
+  align-self: flex-start;
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 959px) {
+  .card__old-price.card__old-price_margin_medium {
+    margin-top: 36px;
+  }
+}
+@media screen and (max-width: 719px) {
+  .card__old-price.card__old-price_margin_medium {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=card__old-price_margin_medium.css.map */

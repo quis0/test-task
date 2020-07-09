@@ -1,0 +1,17 @@
+.offers__separation-line {
+  color: rgb(189, 189, 189);
+  background-color: rgb(189, 189, 189);
+  width: 1140px;
+  border: none;
+  height: 1px;
+  margin: 0 auto 60px auto;
+  position: relative;
+  right: 16px;
+}
+
+@media screen and (max-width: 1139px) {
+  .offers__separation-line {
+    width: 100%;
+    right: 0;
+  }
+}

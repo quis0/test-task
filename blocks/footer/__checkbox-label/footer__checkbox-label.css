@@ -1,0 +1,10 @@
+.footer__checkbox-label {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-self: flex-start;
+}
+
+/*# sourceMappingURL=footer__checkbox-label.css.map */

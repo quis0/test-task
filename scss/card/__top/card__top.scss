@@ -1,0 +1,10 @@
+.card__top {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+  .card__top {
+    max-width: 306px;
+  }
+}

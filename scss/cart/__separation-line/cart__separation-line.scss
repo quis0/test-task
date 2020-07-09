@@ -1,0 +1,13 @@
+.cart__separation-line {
+  color: rgb(189, 189, 189);
+  background-color: rgb(189, 189, 189);
+  border: none;
+  height: 1px;
+  margin: 120px 0 32px 0;
+}
+
+@media screen and (max-width: 719px) {
+  .cart__separation-line {
+    margin-top: 78px;
+  }
+}
