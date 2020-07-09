@@ -18,4 +18,4 @@
 2. CSS 3 (SCSS)
 3. JavaScript
 
-### Try it: 
+### Try it: https://quis0.github.io/test-task/
