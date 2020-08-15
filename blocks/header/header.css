@@ -6,6 +6,8 @@
 @import url(__burger/header__burger.css);
 @import url(__right-side/header__right-side.css);
 @import url(__ellipses/header__ellipses.css);
+@import url(__logo/header__logo.css);
+
 .header {
   background-color: #212121;
   height: 66px;
